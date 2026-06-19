@@ -1,12 +1,23 @@
-# DS-Portfolio
+# PIMA Diabetes Prediction
 
-Hi, I'm Tuba Masood - this is where i'm building my data science skills in public.
+## Problem
+Predict whether a patient has diabetes based on 8 health measurements.
+Early prediction can support timely medical intervention.
 
-## What's here
-projects, notebooks, and notes as i learn python, pandas, SQL, and machine learning.
+## Data
+- PIMA Indians Diabetes dataset (768 patients, 8 features + outcome)
+- Source: Kaggle
+- Classes are imbalanced: ~65% non-diabetic, ~35% diabetic
 
-## First project (in progress)
-PIMA Diabetes dataset - exploratory data analysis (EDA).
+## Approach
+- Exploratory Data Analysis (distributions, correlations, boxplots)
+- Cleaned disguised missing values (impossible zeros in Glucose, BloodPressure, BMI → median imputation)
+- Train/test split (80/20, stratified) before any modeling
+- Baseline model (majority class) = ~65% accuracy — the bar to beat
+- (More models to come)
 
-## Tools I'm learning 
-Python, pandas, numpy, scikit-learn, matplotlib, seaborn, SQL, Git/GitHub.
+## Results
+*To be filled in as models are trained and evaluated.*
+
+## Tools
+Python, pandas, NumPy, scikit-learn, matplotlib, seaborn
